@@ -1,0 +1,19 @@
+# Build Files #
+
+bin
+target
+build/
+.gradle
+dependency-reduced-pom.xml
+
+
+# IntelliJ IDEA Files #
+
+*.iml
+*.ipr
+*.iws
+*.idea
+
+redis-springboot-starter\
+out\
+.gradle\
