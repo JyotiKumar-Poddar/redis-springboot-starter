@@ -7,12 +7,8 @@ import org.slf4j.LoggerFactory;
 /**
  * Receiver class listen message from the topic <b>chat* pattern</b>
  */
-public class Receiver {
-    private static final Logger LOG = LoggerFactory.getLogger(Receiver.class);
+public interface Receiver {
 
-    // subscriber of the message
-    public void receiveMessage(String message) {
-        LOG.info("Received <" + message + ">");
-    }
+    void receiveMessage(String message);
 
 }
